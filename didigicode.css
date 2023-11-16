@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+h1 {
+color: #333;
+}
+
+.digicode {
+  border: 2px solid #333;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 300px;
+}
+
+#ecran {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+
+.clavier {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.nombre {
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+  border: 1px solid #333;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.nombre:hover {
+  background-color: #ddd;
+}
